@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Dapp</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+        body {
+            padding: 40px;
+        }
+
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        input,
+        textarea {
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        textarea {
+            width: 800px;
+            height: 200px;
+        }
+
+        input.address {
+            width: 500px;
+        }
+
+        input.txid {
+            width: 700px;
+        }
+
+        .button-error {
+            background: rgb(202, 60, 60);
+            color: white;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h2>Current Weather Search</h2>
+    Instructions:<br>
+    1. Install MetaMask<br>
+    2. Login/Register<br>
+    3. Enter city name and click "Search" or press ENTER<br>
+    4. Pay search Fee<br><br>
+
+	<form action="#" class="pure-form">
+		<input type="text" placeholder="Enter City Name" id="searchInput">
+		<button class="pure-button pure-button-primary" id="searchButton">Search</button>
+		<div id="city"></div>
+		<div id="country"></div>
+		<div id="temp"></div>
+		<div id="humidity"></div>
+		<div id="wind"></div>
+		<div id="web3response"></div>
+	</form>
+
+	<script src="index.js"></script>
+	
+</body>
+
+</html>
