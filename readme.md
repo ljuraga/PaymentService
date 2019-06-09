@@ -1,4 +1,4 @@
-#Pametni ugovor za posredovanje plačanja
+# Pametni ugovor za posredovanje plačanja
 
 Pametni ugovor sadrži slijedeće funkcije:
 addCustomerAddress - funkcija za dodavanje klijenta u popis klijenta
